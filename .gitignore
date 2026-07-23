@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Databases (created at runtime)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Env / secrets
+.env
+.env.local
+
+# Node / frontend
+node_modules/
+frontend/dist/
+dist/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
